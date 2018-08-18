@@ -1,0 +1,45 @@
+me quedé en extend your application
+https://tutorial.djangogirls.org/en/extend_your_application/
+
+color hunt http://www.colorhunt.co/c/110354
+go to djangogirls or folder that i want to work in,
+python3 -m venv myvenv #create virtualenv called myvenv
+source myvenv/bin/activate #activate myvenv
+python manage.py runserver
+
+#on ~/djangogirls$ type
+django-admin startproject mysite .
+
+
+pythonanywhere account: judykwon@outlook.com, pw codingleuven username hatumatu
+
+88e55c8e2f0cf3c86974dc444954cd4f6af8496d token for pythonanywhere
+
+https://github.com/judydhayoung/djangogirls-blog.git github repo
+
+pull down code from github on pythonanywhere
+$ pip3.6 install --user pythonanywhere
+$ pa_autoconfigure_django.py https://github.com/<your-github-username>/my-first-blog.git
+$ pa_autoconfigure_django.py https://github.com/judydhayoung/djangogirls-blog.git
+
+python manage.py createsuperuser
+on local - admin keeptrying20
+on pythonanywhere - admin keeptrying20
+
+http://hatumatu.pythonanywhere.com/admin
+
+
+
+https://docs.djangoproject.com/en/1.11/ref/models/fields/#field-types
+
+cd ~/hatumatu.pythonanywhere.com
+
+-Django ORM and QuerySets
+QuerySet is a list of objects of a given Model.
+(myvenv) ~/djangogirls$ python manage.py shell
+
+
+Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw, toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken. Het heeft niet alleen vijf eeuwen overleefd maar is ook, vrijwel onveranderd, overgenomen in elektronische letterzetting. Het is in de jaren '60 populair geworden met de introductie van Letraset vellen met Lorem Ipsum passages en meer recentelijk door desktop publishing software zoals Aldus PageMaker die versies van Lorem Ipsum bevatten.
+
+{% url 'post_detail' pk=post.pk %}
+{% means we are using Django template tags
